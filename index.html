@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onis FC – Официальный сайт футбольного клуба</title>
+    <meta name="description" content="Официальный сайт футбольного клуба Onis FC. Новости, результаты матчей, состав команды и многое другое.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Onis FC</h1>
+                </div>
+                <nav class="nav">
+                    <button class="nav-toggle" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="team.html">Команда</a></li>
+                        <li><a href="fixtures.html">Матчи</a></li>
+                        <li><a href="partners.html">Партнеры</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Добро пожаловать в Onis FC</h2>
+            <p>Официальный сайт футбольного клуба Onis FC</p>
+            <a href="news.html" class="btn btn-primary">Последние новости</a>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="news-section">
+        <div class="container">
+            <h2>Последние новости</h2>
+            <div class="news-grid">
+                <article class="news-card featured">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&h=450&fit=crop" alt="Тренировка команды" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Команда готовится к новому сезону</h3>
+                        <p>Игроки Onis FC активно готовятся к предстоящему сезону. Тренировочный процесс проходит в интенсивном режиме.</p>
+                        <span class="news-date">15 июля 2025</span>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=225&fit=crop" alt="Новый игрок" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Подписан новый нападающий</h3>
+                        <p>Клуб объявил о подписании контракта с талантливым нападающим.</p>
+                        <span class="news-date">12 июля 2025</span>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=400&h=225&fit=crop" alt="Стадион" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Реконструкция домашнего стадиона</h3>
+                        <p>Начались работы по модернизации домашней арены клуба.</p>
+                        <span class="news-date">10 июля 2025</span>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop" alt="Молодежная команда" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="news-content">
+                        <h3>Успехи молодежной команды</h3>
+                        <p>Молодежная команда Onis FC показывает отличные результаты в турнире.</p>
+                        <span class="news-date">8 июля 2025</span>
+                    </div>
+                </article>
+            </div>
+            <div class="section-footer">
+                <a href="news.html" class="btn btn-secondary">Все новости</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fixtures & Results -->
+    <section class="fixtures-section">
+        <div class="container">
+            <h2>Матчи и результаты</h2>
+            <div class="fixtures-grid">
+                <div class="fixture-card next">
+                    <div class="fixture-header">
+                        <span class="fixture-date">9 августа</span>
+                        <span class="fixture-time">20:00</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="team home">
+                            <span class="team-name">Onis FC</span>
+                        </div>
+                        <div class="vs">VS</div>
+                        <div class="team away">
+                            <span class="team-name">Спартак</span>
+                        </div>
+                    </div>
+                    <div class="fixture-venue">Домашний стадион</div>
+                </div>
+
+                <div class="fixture-card result">
+                    <div class="fixture-header">
+                        <span class="fixture-date">1 июля</span>
+                        <span class="fixture-status">Завершен</span>
+                    </div>
+                    <div class="fixture-teams">
+                        <div class="team home">
+                            <span class="team-name">Onis FC</span>
+                            <span class="score">2</span>
+                        </div>
+                        <div class="vs">-</div>
+                        <div class="team away">
+                            <span class="team-name">Динамо</span>
+                            <span class="score">1</span>
+                        </div>
+                    </div>
+                    <div class="fixture-venue">Домашний стадион</div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="fixtures.html" class="btn btn-secondary">Все матчи</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Sections -->
+    <section class="team-sections">
+        <div class="container">
+            <div class="team-grid">
+                <div class="team-section">
+                    <h3>Мужская команда</h3>
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=400&fit=crop" alt="Мужская команда" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <p>Основная команда клуба, участвующая в чемпионате страны.</p>
+                    <a href="team.html" class="btn btn-outline">Подробнее</a>
+                </div>
+
+                <div class="team-section">
+                    <h3>Женская команда</h3>
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=600&h=400&fit=crop" alt="Женская команда" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <p>Женская команда Onis FC показывает отличные результаты.</p>
+                    <a href="team.html" class="btn btn-outline">Подробнее</a>
+                </div>
+
+                <div class="team-section">
+                    <h3>Молодежная команда</h3>
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&h=400&fit=crop" alt="Молодежная команда" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <p>Будущее клуба - талантливые молодые игроки.</p>
+                    <a href="team.html" class="btn btn-outline">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners-section">
+        <div class="container">
+            <h2>Наши партнеры</h2>
+            <div class="partners-grid">
+                <div class="partner">
+                    <h4>Главный спонсор</h4>
+                    <p>ТехноСпорт</p>
+                </div>
+                <div class="partner">
+                    <h4>Официальный партнер</h4>
+                    <p>СпортБанк</p>
+                </div>
+                <div class="partner">
+                    <h4>Партнер по экипировке</h4>
+                    <p>СпортГир</p>
+                </div>
+                <div class="partner">
+                    <h4>Медиа партнер</h4>
+                    <p>СпортТВ</p>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="partners.html" class="btn btn-secondary">Все партнеры</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Onis FC</h4>
+                    <p>Официальный сайт футбольного клуба</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="team.html">Команда</a></li>
+                        <li><a href="fixtures.html">Матчи</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <ul>
+                        <li><a href="#">ВКонтакте</a></li>
+                        <li><a href="#">Телеграм</a></li>
+                        <li><a href="#">Инстаграм</a></li>
+                        <li><a href="#">Ютуб</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Email: info@onisfc.ru</p>
+                    <p>Телефон: +7 (495) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Onis FC. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
